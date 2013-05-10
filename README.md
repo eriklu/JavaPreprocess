@@ -25,3 +25,6 @@ Ant Build.xml example:
     </target>
     <taskdef name="wtkprocess" classname="de.pleumann.antenna.WtkPreprocess" classpath="/Users/aoro/work/git/out/antenna_preprocess.jar"/> 
 </project>
+
+
+in java code, ${abc} will cause ant to replace abc with property abc, if not found abc property, will use abc symbol to replace.
